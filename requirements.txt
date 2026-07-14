@@ -2,7 +2,7 @@ streamlit
 pandas
 numpy
 plotly
-scikit-learn
+scikit-learn==1.6.1
 statsmodels
-joblib
-catboost
+joblib==1.5.3
+catboost==1.2.10
