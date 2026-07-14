@@ -224,7 +224,7 @@ def get_model_ready_data():
 
 @st.cache_resource(show_spinner="Loading model...")
 def load_pipeline():
-    return joblib.load("model/catboost_pipeline.joblib")
+    return joblib.load("catboost_pipeline.joblib")
 
 
 # =============================================================================
